@@ -1,0 +1,15 @@
+#include "resource.h"
+
+MAIN_MENU MENU {
+	POPUP "ログイン" {
+		MENUITEM "ログイン" , MWM_LOGIN
+	}
+	POPUP "操作" {
+		MENUITEM "ユーザー追加" , WMM_CON_ADD
+		MENUITEM "グループ作成" , WMM_CON_MAKEG
+		MENUITEM "グループ加入" , WMM_CON_ADDG
+		MENUITEM "情報" , WMM_CON_INFO
+		MENUITEM "申請中のユーザー" , WMM_CON_UESER
+		MENUITEM "このグループの加入申請者" , WMM_CON_GROUPADD
+	}
+}

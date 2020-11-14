@@ -1,0 +1,5 @@
+実行ファイル（簡易的なチャット.exe）のあるディレクトリに、次の「MySQL Connector C++ 8.0」のdllファイルを置く
+・mysqlcppconn-7-vs14.dll
+・mysqlcppconn8-2-vs14.dll
+・libcrypto-1_1-x64.dll
+・libssl-1_1-x64.dll
