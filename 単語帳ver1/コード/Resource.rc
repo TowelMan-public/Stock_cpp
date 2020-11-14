@@ -1,0 +1,144 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 296, 149
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "検索"
+FONT 14, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    LTEXT           "検索したい単語とその分類を入力してください",IDC_STATIC,7,7,151,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,239,128,50,14
+    EDITTEXT        IDC_EDIT1,36,42,123,25,ES_AUTOHSCROLL
+    PUSHBUTTON      "検索",IDC_BUTTON1,208,59,59,31
+    EDITTEXT        IDC_EDIT2,36,91,154,16,ES_AUTOHSCROLL
+    LTEXT           "単語を入力してください",IDC_STATIC,28,29,103,8
+    LTEXT           "分類を入力してください",IDC_STATIC,27,82,81,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 433, 313
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登録"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "登録",IDOK,319,292,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,376,292,50,14
+    EDITTEXT        IDC_EDIT1,28,62,261,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,29,34,260,16,ES_AUTOHSCROLL
+    LTEXT           "登録したい単語について入力してください",IDC_STATIC,7,7,252,12
+    EDITTEXT        IDC_EDIT3,27,89,320,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,28,113,398,154,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL | WS_GROUP
+    SCROLLBAR       IDC_SCROLLBAR1,416,114,10,151,SBS_VERT
+    SCROLLBAR       IDC_SCROLLBAR2,29,256,386,9
+    LTEXT           "単語 ※必須項目",IDC_STATIC,23,23,63,10
+    LTEXT           "分類　※必須項目",IDC_STATIC,21,52,81,8
+    LTEXT           "画像のあるパス（""\\""は""\\\\""としてください）",IDC_STATIC,20,81,143,8
+    LTEXT           "内容　※必須項目",IDC_STATIC,19,102,60,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 426
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 306
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
